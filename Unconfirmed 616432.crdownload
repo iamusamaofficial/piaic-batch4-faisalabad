@@ -1,0 +1,54 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+Name= "Ali Raza"
+University_Name= "Artificial Intelligence"
+print(Name,University_Name)
+
+
+# In[1]:
+
+
+name="ali raza"
+university_name="Artificial Intelligence"
+message=name + "\n" + "your application accepted for" + university_name
+print(message)
+
+
+# In[4]:
+
+
+name="Ali Raza"
+university_name="Artificial Intelligence"
+age="12"
+uni_class="bscs"
+message="Hello " + name + "\n" + age +"\n" + uni_class + "\n"+ "Your application is accepted for " + university_name  
+print(message)
+
+
+# In[10]:
+
+
+age="Ali raza"
+UNIVERSITY_NAME="Artificial intelligence"
+message="Hello {}\nYour application is accepted for {}".format(age,UNIVERSITY_NAME)
+print(message)
+
+
+# In[13]:
+
+
+className="Artificial intelligence"
+personName="Ali Raza"
+message = "Hello {personName}\nYour application is accepted for {personClass}".format(personClass = className, personName = name)
+print(message)
+
+
+# In[ ]:
+
+
+
+
